@@ -5223,6 +5223,13 @@ public final class Settings {
         public static final String WFD_LEGACY_VIDEO_MODE = "wfd_legacy_video_mode";
 
         /**
+         * Disable power menu on secure lock screens
+         *
+         * @hide
+         */
+        public static final String LOCK_POWER_MENU_DISABLED = "lockscreen_power_menu_disabled";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
