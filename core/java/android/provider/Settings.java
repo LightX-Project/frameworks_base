@@ -5256,6 +5256,24 @@ public final class Settings {
          * @hide
          */
         public static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
+        /**
+         * @hide
+         * Whether the phone vibrates on call connect
+         * @hide
+         */
+        public static final String VIBRATE_ON_CONNECT = "vibrate_on_connect";
+
+         /**
+         * Whether the phone vibrates on call waiting
+         * @hide
+         */
+        public static final String VIBRATE_ON_CALLWAITING = "vibrate_on_callwaiting";
+
+         /**
+         * Whether the phone vibrates on disconnect
+         * @hide
+         */
+        public static final String VIBRATE_ON_DISCONNECT = "vibrate_on_disconnect";
 
        /**
          * These are all public system settings
@@ -5366,7 +5384,13 @@ public final class Settings {
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE);
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE_VENDOR_HINT);
             PRIVATE_SETTINGS.add(VOLUME_BUTTON_MUSIC_CONTROL);
+<<<<<<< HEAD
             PRIVATE_SETTINGS.add(VOLUME_ROCKER_WAKE);
+=======
+            PRIVATE_SETTINGS.add(VIBRATE_ON_CONNECT);
+            PRIVATE_SETTINGS.add(VIBRATE_ON_CALLWAITING);
+            PRIVATE_SETTINGS.add(VIBRATE_ON_DISCONNECT);
+>>>>>>> b7895ed8d41b... base: Incall vibration options [1/3]
         }
 
         /**
