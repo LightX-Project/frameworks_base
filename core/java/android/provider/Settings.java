@@ -4954,6 +4954,12 @@ public final class Settings {
         public static final String NOTIFICATION_LIGHT_PULSE = "notification_light_pulse";
 
         /**
+         * Whether Proximity on Wake is Enabled or not
+         * @hide
+         */
+        public static final String PROXIMITY_ON_WAKE = "proximity_on_wake";
+
+        /**
          * Show pointer location on screen?
          * 0 = no
          * 1 = yes
@@ -5384,13 +5390,10 @@ public final class Settings {
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE);
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE_VENDOR_HINT);
             PRIVATE_SETTINGS.add(VOLUME_BUTTON_MUSIC_CONTROL);
-<<<<<<< HEAD
             PRIVATE_SETTINGS.add(VOLUME_ROCKER_WAKE);
-=======
             PRIVATE_SETTINGS.add(VIBRATE_ON_CONNECT);
             PRIVATE_SETTINGS.add(VIBRATE_ON_CALLWAITING);
             PRIVATE_SETTINGS.add(VIBRATE_ON_DISCONNECT);
->>>>>>> b7895ed8d41b... base: Incall vibration options [1/3]
         }
 
         /**
