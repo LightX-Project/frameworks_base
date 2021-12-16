@@ -79,7 +79,7 @@ public class RotationLockTile extends SecureQSTile<BooleanState> implements
             RotationLockController rotationLockController,
             SensorPrivacyManager privacyManager,
             BatteryController batteryController,
-            SecureSettings secureSettings
+            SecureSettings secureSettings,
             KeyguardStateController keyguardStateController
     ) {
         super(host, backgroundLooper, mainHandler, falsingManager, metricsLogger,
